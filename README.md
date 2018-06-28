@@ -8,7 +8,7 @@ dyno slug.
 [Heroku supports using multiple buildpacks for an app](https://devcenter.heroku.com/articles/using-multiple-buildpacks-for-an-app).
 
 ```console
-heroku buildpacks:add --index 1 https://github.com/mojodna/heroku-buildpack-jemalloc.git
+heroku buildpacks:add --index 1 https://github.com/producthunt/heroku-buildpack-jemalloc.git
 git push heroku master
 ```
 
